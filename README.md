@@ -1,44 +1,82 @@
-### Hi, I'm Zhimin (Myra) Wang 👋
+# Hi, I'm Zhimin (Myra) Wang 👋
 
-I build research prototypes at the intersection of **human-AI collaboration**, **requirements engineering**, and **organizational decision-making**.
+I build research prototypes at the intersection of human-AI collaboration, requirements engineering, and organizational decision-making.
 
-My work explores a concrete problem: *AI systems can generate requirements, summarize interviews, and propose decisions — but they leave no inspectable evidence trail. When the reasoning disappears, so does accountability.*
+My work focuses on a recurring problem in AI-supported workflows: modern AI systems can generate requirements, synthesize interviews, and recommend decisions at scale, yet the reasoning process behind those outputs is often difficult to inspect, revisit, or challenge.
 
----
+I’m interested in how AI systems can support evidence-grounded and traceable decision-making while preserving meaningful human oversight.
 
-**Research question:**
-> How can AI agents support traceable, evidence-grounded decisions in user research and organizational workflows — while keeping humans as the final authority?
-
----
-
-**Four clusters of work:**
-
-🔍 **Traceable Requirements & Decision Memory**  
-AI that enforces "no citation, no decision" in organizational workflows
-
-→ [`UserResearchAgent-CF`](https://github.com/MyraWang0406/UserResearchAgent-CF) — decision memory prototype: recall, falsification tracking, conflict detection  
-→ [`CrowdRE 2026 Paper`](https://github.com/MyraWang0406/CrowdRE2026-Beyond-App-Reviews-Archive) — workshop paper under review: crowd feedback → traceable requirement signals
-
-📊 **Crowd Feedback → Requirement Signals**  
-Platform-aware pipeline from heterogeneous user feedback to inspectable requirement candidates
-
-→ [`UsedCarInsightForManus`](https://github.com/MyraWang0406/UsedCarInsightForManus) — vehicle crowd feedback pipeline (CrowdRE 2026 data artifact)  
-→ [`Auto-sentiment-copilot-V1`](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) — multi-platform feedback intelligence: phones, EVs, robots, smart home
-
-🤖 **Reflective & Multi-Agent Decision Support**  
-Multi-role agents that expand the decision space without replacing human judgment
-
-→ [`MatrixMirix.WhatIf`](https://github.com/MyraWang0406/MatrixMirix.WhatIf) — multi-agent deliberation: surfacing assumptions before a decision is made  
-→ [`Memory-Genesis`](https://github.com/MyraWang0406/Memory-Genesis) — longitudinal decision memory: reconstructing context for reflective review
-
-🏭 **AI Diagnosis in Automated System Workflows**  
-Whitebox logging and AI diagnostic agents for automated decision systems
-
-→ [`ADX-Mirix-1.15-cursor`](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) — programmatic ad exchange simulator with AI anomaly detection and traceable decision logs
+Rather than treating this as a purely conceptual problem, I explore it through working prototypes that expose concrete failure modes in organizational and research workflows.
 
 ---
 
-📄 CrowdRE 2026 workshop paper submitted — under review  
-🏫 Shanghai Jiao Tong University  
-📬 myra0406@sjtu.edu.cn / myrawzm0406@163.com 
-🔍 Interested in PhD / RA in HCI · CSCW · Human-AI Collaboration (2026–2027)
+## Research Areas
+
+### 🔍 Traceable Requirements & Decision Memory
+
+This line of work explores how AI systems can preserve reasoning context, decision provenance, and conflicting evidence during requirements analysis and user research workflows.
+
+Projects:
+
+- `UserResearchAgent-CF`  
+  Decision-memory prototype for recall, contradiction tracking, and evidence-grounded review
+
+- `CrowdRE 2026 Paper`  
+  Workshop paper exploring how crowd feedback can be transformed into traceable requirement signals
+
+---
+
+### 📊 Crowd Feedback & Requirement Signals
+
+User feedback across platforms is fragmented, noisy, and highly contextual. These projects investigate how heterogeneous crowd feedback can be transformed into inspectable requirement intelligence.
+
+Projects:
+
+- `UsedCarInsightForManus`  
+  Crowd feedback pipeline for vehicle-related requirement analysis and discussion mining
+
+- `Auto-sentiment-copilot-V1`  
+  Multi-platform feedback analysis system for consumer technology domains including phones, EVs, robotics, and smart home products
+
+---
+
+### 🤖 Reflective & Multi-Agent Decision Support
+
+This research direction explores how multiple AI agents with distinct roles can support reflective deliberation, assumption surfacing, and contextual reconstruction before humans make final decisions.
+
+Projects:
+
+- `MatrixMirix.WhatIf`  
+  Multi-agent deliberation prototype for assumption exploration and decision comparison
+
+- `Memory-Genesis`  
+  Longitudinal decision-memory system for reflective review and context reconstruction
+
+- `Cognitive-Learning-Lab`  
+  Simulation-oriented learning environment focused on exploratory causal reasoning
+
+- `temporal-garden`  
+  Temporal reflection prototype examining how people revisit and reinterpret past decisions over time
+
+Additional prototype:
+
+- `ADX-Mirix-1.15-cursor`  
+  White-box ADX simulation environment with AI-assisted diagnostics and traceable decision logging
+
+---
+
+## Background
+
+I have 5+ years of industry experience across growth platforms, user research, and behavioral analytics. Working within real organizational constraints shaped my interest in how traceability, accountability, and decision memory operate in practice rather than only in theory.
+
+I am also exploring how multi-agent social simulation and computational social science might extend these ideas toward collective and organizational decision-making at larger scales.
+
+---
+
+## Current Focus
+
+- 📄 CrowdRE 2026 workshop paper under review
+- 🏫 Shanghai Jiao Tong University
+- 🔍 Interested in PhD / RA opportunities in HCI, CSCW, Human-AI Collaboration, and Requirements Engineering (2026–2027)
+
+📬 myra0406@sjtu.edu.cn
