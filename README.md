@@ -1,6 +1,6 @@
 # Zhimin (Myra) Wang
 
-**Human-AI Collaboration · Socio-Technical Systems · Decision Making, Simulation and Traceability · Agent-Based Modeling **
+**Human-AI Collaboration · Socio-Technical Systems · Decision Making, Simulation and Traceability · Agent-Based Modeling**
 
 I build research prototypes for **traceable human-AI decision-making** and **simulation-based socio-technical systems**.
 
