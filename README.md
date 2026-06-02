@@ -1,195 +1,221 @@
 # Zhimin (Myra) Wang
 
-I build research prototypes for **traceable AI-assisted decision-making**.
+**Human-AI Collaboration · Decision Traceability · Simulation-Based Socio-Technical Systems**
 
-My work focuses on how AI systems support evidence-grounded reasoning, decision memory, conflict detection, and human oversight in user research, requirements engineering, and organizational workflows.
+I build research prototypes for **traceable human-AI decision-making**.
 
-I am also extending this line of work toward **LLM-agent social simulation**, asking how agents behave under organizational constraints such as hierarchy, incentives, accountability, memory, and conflicting goals.
+My work studies how AI agents help people structure ambiguous problems, surface hidden assumptions, simulate stakeholder perspectives, preserve evidence, and make decisions more traceable and accountable in user research, requirements engineering, and organizational workflows.
 
-> Core question:  
-> How can AI agents help people make better decisions with evidence, memory, and traceability — without replacing human judgment?
+My current research interests include:
 
----
-
-## Research Interests
-
-- Human-AI collaboration
-- Requirements engineering
-- Decision traceability
-- Crowd feedback mining
-- AI-assisted user research
-- Organizational memory
-- AI-assisted diagnosis
-- LLM-agent social simulation
-- Computational social science
+- Human-AI Collaboration
+- Decision Traceability
+- AI-Assisted User Research
+- Requirements Engineering
+- Organizational Memory
+- Simulation-Based Socio-Technical Systems
+- Agent-Based Social Simulation
+- Computational Social Science
 - CSCW / HCI
 
----
-
-## Main Research Thread
-
-### 1. Traceable Requirements & Decision Memory
-
-This line of work explores how AI systems can preserve evidence, prior decisions, falsified assumptions, and conflicting signals during requirements analysis and user research.
-
-| Project | What it does | Research value |
-|---|---|---|
-| [UserResearchAgent-CF](https://github.com/MyraWang0406/UserResearchAgent-CF) | Decision-memory prototype for evidence citation, falsification tracking, and conflict detection | Tests the principle of “no citation, no decision” in AI-assisted requirements workflows |
-| [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support) | Portfolio site for agent-assisted user research and decision-support prototypes | Connects reflective AI, user research, and decision traceability into a coherent research direction |
-| [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | Multi-agent deliberation prototype for exploring assumptions before decisions | Studies how role-based agents support perspective-taking, scenario decomposition, and reflective reasoning |
-
-The goal is to make AI-assisted decisions inspectable.  
-A decision should not only produce an answer, but also preserve the evidence, assumptions, uncertainty, conflicts, and rejected alternatives behind it.
+**Core question:**  
+How can AI agents help people reason through complex decisions with evidence, memory, and traceability, without replacing human judgment?
 
 ---
 
-### 2. Crowd Feedback → Requirement Signals
+## Current Research Focus
 
-Online user feedback is noisy, fragmented, multilingual, and platform-dependent. These projects examine how crowd feedback can be transformed into structured, inspectable requirement intelligence.
+### 1. Reflective AI for Complex Decision-Making
 
-| Project | What it does | Research value |
+I study how role-based AI agents can help users decompose complex decisions into roles, events, assumptions, causal relations, risks, and alternative what-if paths.
+
+This line of work focuses on:
+
+- role-based reasoning
+- perspective-taking
+- assumption surfacing
+- stakeholder simulation
+- reflective decision support
+- perceived decision ownership
+
+### 2. Decision Traceability in User Research and Requirements Engineering
+
+I explore how AI systems can support user research and requirements work without becoming opaque recommendation machines.
+
+This line of work focuses on:
+
+- evidence citation
+- decision memory
+- falsified assumption tracking
+- conflict recall
+- requirement signal extraction
+- evidence-constrained future decisions
+
+### 3. Simulation-Based Socio-Technical Systems
+
+I am extending my work toward agent-based socio-technical simulation.
+
+I am interested in how human and AI agents behave under structural constraints such as hierarchy, incentives, accountability, memory, resource asymmetry, and conflicting goals.
+
+I treat simulated or game-like environments as controlled testbeds for studying social behavior, organizational coordination, and human-AI decision-making. The goal is not game production, but using simulation to generate and inspect hypotheses about socio-technical systems.
+
+---
+
+## Selected Research Prototypes
+
+These are the projects that best represent my current research direction.
+
+| Project | Repository | Demo | Research Role |
+|---|---|---|---|
+| **What-if: Reflective AI Prototype for Complex Decision-Making** | [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) / [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis) | [What-if Demo](https://what-if.myrawzm0406.online/) / [MatrixMirix Demo](https://matrixmirix-whatif.pages.dev/) | Transforms user narratives into structured decision scenarios with roles, events, assumptions, causal relations, and alternative what-if paths |
+| **UserResearchAgent-CF: Decision Memory Prototype** | [UserResearchAgent-CF](https://github.com/MyraWang0406/UserResearchAgent-CF) / [UserResearchAgent](https://github.com/MyraWang0406/UserResearchAgent) | [User Insight Demo](https://user-insight.myrawzm0406.online/) | Studies citation-based decision enforcement, falsification tracking, conflict recall, and evidence-constrained future decisions |
+| **Agent-Assisted User Research and Decision Support** | [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support) | [Consumer Insight Demo](https://consumer-insight.myrawzm0406.online/) | Explores agent-assisted workflows for consumer insight, qualitative research, A/B testing support, lifecycle analysis, and dashboard-based diagnosis |
+| **Self-Evolving Personal AI Assistant** | [Social-Interaction-of-Self-Evolving-Personal-AI-Assistant](https://github.com/MyraWang0406/Social-Interaction-of-Self-Evolving-Personal-AI-Assistant) | [Demo](https://self-evolving-personal-ai-assistant.myrawzm0406.online/) | Explores memory correction, baseline comparison, user feedback, and traceable local records in personal AI assistants |
+
+---
+
+## How These Projects Connect
+
+My projects are connected by one shared design principle:
+
+**AI should not only generate outputs. It should preserve the reasoning process behind them.**
+
+The current research portfolio follows this progression:
+
+| Layer | Research Question | Representative Projects |
 |---|---|---|
-| [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | Cross-platform crowd feedback mining system for phones, vehicles, robots, and smart home products | Treats platform identity as a variable rather than a simple source label |
-| [CrowdRE2026-Beyond-App-Reviews-Archive](https://github.com/MyraWang0406/CrowdRE2026-Beyond-App-Reviews-Archive) | Submission archive for a CrowdRE 2026 paper on platform-aware crowd feedback mining | Links raw feedback, topic clusters, evidence samples, and requirement candidates |
-| [UsedCarInsightForManus](https://github.com/MyraWang0406/UsedCarInsightForManus) | NLP pipeline for second-hand vehicle feedback from Bilibili and Reddit | Surfaces second-hand EV buyers as an often invisible stakeholder group in requirements pipelines |
+| Reflective reasoning | How can AI agents help users inspect assumptions before a decision is finalized? | MatrixMirix.WhatIf, Memory-Genesis |
+| Decision memory | How can prior evidence, rejected options, and falsified assumptions constrain later decisions? | UserResearchAgent-CF |
+| User research workflow | How can AI structure ambiguous user or business problems into research artifacts? | Agent-Assisted-User-Research-and-Decision-Support, UserResearchAgent |
+| Requirement evidence | How can fragmented user feedback become inspectable requirement signals? | Auto-sentiment-copilot-V1, CrowdRE Archive |
+| Operational diagnosis | How can operators inspect why automated systems made or failed decisions? | ADX-Mirix, PSM-DID-uplift |
+| Socio-technical simulation | How do agents behave under hierarchy, incentives, memory, and accountability constraints? | Emerging direction |
 
-The goal is not to build another sentiment dashboard.  
-The goal is to preserve the chain from raw crowd feedback to requirement candidate:
+---
+
+## Evidence and Requirements Engineering
+
+These projects study how fragmented feedback, platform data, and user evidence can become traceable requirement intelligence.
+
+| Area | Repository | Demo | Research Value |
+|---|---|---|---|
+| Crowd feedback to requirement signals | [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | [Global Auto Sentiment](https://global-auto-sentiment.myrawzm0406.online/) | Studies how heterogeneous crowd feedback becomes inspectable requirement evidence |
+| CrowdRE paper archive | [CrowdRE2026-Beyond-App-Reviews-Archive](https://github.com/MyraWang0406/CrowdRE2026-Beyond-App-Reviews-Archive) | — | Stores paper, LaTeX source, figures, analysis outputs, and submission history for CrowdRE 2026 |
+| Used-car feedback analysis | [UsedCarInsightForManus](https://github.com/MyraWang0406/UsedCarInsightForManus) | — | Extracts requirement signals from second-hand vehicle feedback on Bilibili and Reddit |
+
+The goal is not to build another sentiment dashboard.
+
+The goal is to preserve the chain from raw feedback to requirement signal:
 
 **source platform → topic cluster → evidence sample → requirement signal**
 
 ---
 
-### 3. AI-Assisted Diagnosis in Automated Decision Systems
+## Operational Diagnosis and Causal Decision Support
 
-This line of work applies the same traceability idea to automated system workflows, especially where operators need to understand why a system made or failed a decision.
+These projects extend decision traceability into automated workflows, advertising systems, customer-service workflows, merchant operations, and traffic attribution.
 
-| Project | What it does | Research value |
-|---|---|---|
-| [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | White-box ad exchange simulator with traceable logs and an AI diagnostic agent | Makes invisible filtering, bidding, and win/loss decisions inspectable |
-| [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2) | Experimental dashboard for ad-system A/B testing and decision support | Explores how operators compare outcomes and diagnose metric changes |
-
-This direction studies how AI agents can support operational reasoning without hiding behind black-box recommendations.
-
-Instead of only asking “what happened?”, I am interested in systems that help users inspect:
-
-- what evidence was used
-- what rule or model triggered the outcome
-- where the decision path failed
-- which alternative explanation remains plausible
-- what intervention should be tested next
+| Area | Repository | Demo | Research Value |
+|---|---|---|---|
+| White-box ad-system diagnosis | [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | [ADX Mirix Demo](https://adx.mirix.myrawzm0406.online/) | Makes filtering, bidding, win/loss, and diagnostic decisions inspectable in an automated advertising workflow |
+| Ad-system experiment dashboard | [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2) | [Demo](https://adx-experiment-v2.myrawzm0406.online/) | Explores dashboard-based support for A/B testing and metric-change diagnosis |
+| Traffic attribution and causal reasoning | [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift) | [Traffic Attribution Demo](https://traffic-attribution.myrawzm0406.online/) | Explores how causal reasoning concepts such as PSM, DID, and uplift support inspectable attribution decisions |
+| Merchant operations copilot | [merchant-ops-agent-handson](https://github.com/MyraWang0406/merchant-ops-agent-handson) | [Demo](https://merchant-ops-copilot.myrawzm0406.online/) | Studies AI-agent support for merchant operations, promotion planning, and workflow diagnosis |
+| Customer-service workflow | [chatbot-customer-service](https://github.com/MyraWang0406/chatbot-customer-service) | [Chatbot Demo](https://chatbot-customer-service.myrawzm0406.online/) | Explores how service conversations and customer feedback can become structured evidence for product improvement |
 
 ---
 
-### 4. Emerging Direction: LLM-Agent Social Simulation for Organizational Behavior
+## Secondary Exploratory Prototypes
 
-I am extending my work on decision memory and traceability toward multi-agent social simulation.
+These projects are side explorations. They are useful for design exploration, but they are not my current main RA / PhD research focus.
 
-The next research question is not only whether an AI system can support one decision, but how multiple agents behave when they operate under organizational constraints such as hierarchy, incentives, risk, accountability, memory, and conflicting goals.
-
-This direction connects my existing prototypes in decision memory, requirement traceability, and diagnostic workflows with computational social science and agent-based simulation.
-
-| Research angle | What I want to study | Possible prototype |
+| Project | Demo | Role |
 |---|---|---|
-| Organizational memory | How past evidence, falsified assumptions, and prior decisions constrain later group decisions | Multi-agent decision-memory simulation |
-| Conflict and accountability | How agents respond when goals, incentives, and evidence conflict | Simulated requirement review / escalation workflow |
-| Hierarchy and incentives | How KPI pressure, role hierarchy, and risk-shifting affect cooperation | Big-tech-style organizational simulation |
-| Human-AI mixed experiments | How human participants and AI agents negotiate, cooperate, or disagree in structured tasks | Hybrid decision-making experiment |
-| Cross-cultural / multilingual agents | How language and cultural framing affect simulated decisions and conflict resolution | Multilingual agent simulation scenarios |
-
-This is an early-stage research direction. I treat LLM-agent simulation as a controlled testbed for generating hypotheses about organizational behavior, not as a replacement for human-subject studies.
+| [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab) | [Demo](https://cognitive-learning-lab.pages.dev/) | Exploratory prototype for simulation-based causal reasoning and interactive learning |
+| [MatrixMirix04](https://github.com/MyraWang0406/MatrixMirix04) | [Streamlit Demo](https://matixmirix060202.streamlit.app/) | Earlier prototype for reflective decision-support interaction |
+| `temporal-garden` | — | Exploratory prototype for temporal reflection and reinterpretation of past decisions |
 
 ---
 
-## Exploratory Prototypes: Simulation, Reflection, and Causal Reasoning
+## Emerging Direction: Agent-Based Socio-Technical Simulation
 
-These projects are not my main research line yet. I use them to explore how interactive systems help people build causal intuitions, revisit past decisions, and reason through change over time.
+My next research direction is to build controlled simulation environments for studying human-AI coordination under structural constraints.
 
-| Project | What it explores | Why it matters |
-|---|---|---|
-| [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab) | Simulation-based learning environment for exploratory causal reasoning | Connects interactive simulation with human sensemaking |
-| [temporal-garden](https://github.com/MyraWang0406/temporal-garden) | Temporal reflection prototype examining how people revisit and reinterpret past decisions over time | Explores reflection, reinterpretation, and longitudinal decision memory |
-| [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis) | Longitudinal personal decision-memory prototype | Explores how people reconstruct past decisions |
-| [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | Multi-agent reflective decision-support prototype | Explores assumption surfacing and perspective comparison |
+Possible research questions include:
 
-These prototypes are exploratory. I use them to test design ideas before turning them into more formal research studies.
+- How do hierarchy and incentives shape human-AI coordination?
+- How do memory and accountability affect organizational decision-making?
+- How do agents behave when local goals conflict with collective outcomes?
+- How does weak organizational memory lead to repeated decision failures?
+- How can simulated environments help generate hypotheses for CSCW and HCI research?
+
+I treat agent-based simulation as a hypothesis-generation tool. It cannot replace human-subject studies, but it can help make invisible organizational dynamics easier to inspect.
 
 ---
 
-## Current Focus
+## Research Outputs / Manuscripts Under Review
 
-I am currently developing a research portfolio around:
+- **Verification Collapse in AI-Assisted Requirements Decisions: Toward Human-Centered Decision Traceability**  
+  HCARE 2026, co-located with IEEE RE 2026. Under review.
 
-1. **Traceable AI-assisted requirements engineering**  
-   How AI systems preserve evidence, contradiction, and decision history during requirements work.
-
-2. **Crowd feedback as requirement intelligence**  
-   How heterogeneous user feedback across platforms can be converted into evidence-backed requirement signals.
-
-3. **AI-assisted diagnosis for complex workflows**  
-   How operators can inspect and act on AI-supported decisions in automated systems.
-
-4. **LLM-agent social simulation for organizational behavior**  
-   How simulated agents behave under hierarchy, incentives, accountability pressure, memory constraints, and conflicting goals.
+- **Beyond App Reviews: Mining Crowd Feedback for Smart Connected Product Requirements**  
+  CrowdRE 2026, co-located with IEEE RE 2026. Under review.
 
 ---
 
 ## Design Principles
 
-Across these projects, I care about several recurring principles:
+### Traceability over generation
 
-### 1. Traceability over generation
+AI systems should not only generate outputs. They should preserve how an output was produced, which evidence supported it, and which assumptions remained uncertain.
 
-AI systems should not only generate outputs.  
-They should preserve how an output was produced, which evidence supported it, and which assumptions remained uncertain.
+### Human oversight over full automation
 
-### 2. Human oversight over full automation
+I do not treat AI agents as replacements for human judgment. I am more interested in how agents help people inspect, compare, challenge, and revise decisions.
 
-I do not treat AI agents as replacements for human judgment.  
-I am more interested in how agents help people inspect, compare, challenge, and revise decisions.
+### Evidence before recommendation
 
-### 3. Evidence before recommendation
+A recommendation without evidence is difficult to trust. A useful AI system should expose the evidence trail behind the recommendation.
 
-A recommendation without evidence is difficult to trust.  
-A useful AI system should expose the evidence trail behind the recommendation.
+### Memory as infrastructure
 
-### 4. Memory as infrastructure
+Many workflow failures happen because teams forget earlier decisions, rejected options, known risks, or prior contradictions. I treat decision memory as infrastructure for better reasoning.
 
-Many workflow failures happen because teams forget earlier decisions, rejected options, known risks, or prior contradictions.  
-I treat decision memory as infrastructure for better reasoning.
+### Simulation as hypothesis generation
 
-### 5. Simulation as hypothesis generation
-
-Simulation cannot replace real-world validation.  
-But it can help generate hypotheses, stress-test assumptions, and make invisible dynamics easier to inspect.
+Simulation cannot replace real-world validation. But it can help generate hypotheses, stress-test assumptions, and make invisible dynamics easier to inspect.
 
 ---
 
 ## Background
 
-I have experience across growth platforms, user research, product operations, and behavioral analytics. This shaped my interest in decision-making under real organizational constraints: incomplete evidence, shifting goals, conflicting stakeholders, weak memory across teams, and pressure to act before information is complete.
+I have 5+ years of experience in product management, user research, platform operations, growth systems, and behavioral analytics.
+
+This background shaped my interest in decision-making under real organizational constraints:
+
+- incomplete evidence
+- shifting goals
+- conflicting stakeholders
+- weak memory across teams
+- pressure to act before information is complete
 
 Rather than treating AI only as a generation tool, I study how AI systems can help people reason more carefully, preserve decision context, and avoid repeating previously falsified assumptions.
 
-My broader research direction sits at the intersection of:
-
-- Human-AI collaboration
-- Requirements engineering
-- Organizational decision-making
-- Computational social science
-- Interactive systems for reflection and reasoning
-
 ---
 
-## Selected Project Map
+## Methods and Skills
 
-| Area | Representative projects |
-|---|---|
-| Decision memory and traceability | UserResearchAgent-CF, MatrixMirix.WhatIf, Memory-Genesis |
-| Crowd feedback and requirements | Auto-sentiment-copilot-V1, CrowdRE2026-Beyond-App-Reviews-Archive, UsedCarInsightForManus |
-| AI-assisted diagnosis | ADX-Mirix-1.15-cursor, ADX-experiment-V2 |
-| Simulation and causal reasoning | Cognitive-Learning-Lab, temporal-garden |
-| Emerging multi-agent social simulation | Future work connecting decision memory, organizational incentives, and LLM-agent behavior |
+- LLM-assisted coding
+- Role-based agent workflows
+- React / Next.js
+- Python
+- FastAPI
+- Data visualization
+- Qualitative and scenario analysis
+- Requirements engineering
+- Case reconstruction
+- Systems thinking
+- Agent-based simulation
 
 ---
 
@@ -203,7 +229,9 @@ I am interested in **RA / PhD opportunities** in:
 - Requirements Engineering
 - AI for organizational decision-making
 - Computational Social Science
+- Simulation-Based Socio-Technical Systems
+- LLM-Agent Systems
 
-Timeline: 2026–2027
+Timeline: **2026–2027**
 
-Email: myra0406@sjtu.edu.cn
+Email: **myra0406@sjtu.edu.cn**
