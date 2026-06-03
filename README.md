@@ -103,16 +103,6 @@ These projects are side explorations. They are useful for design exploration and
 
 ---
 
-## Research Outputs / Manuscripts Under Review
-
-- **Verification Collapse in AI-Assisted Requirements Decisions: Toward Human-Centered Decision Traceability**  
-  HCARE 2026, co-located with IEEE RE 2026. Under review.
-
-- **Beyond App Reviews: Mining Crowd Feedback for Smart Connected Product Requirements**  
-  CrowdRE 2026, co-located with IEEE RE 2026. Under review.
-
----
-
 ## Background
 
 I have 5+ years of industry experience across product workflows, user research, growth platforms, and behavioral analytics.
