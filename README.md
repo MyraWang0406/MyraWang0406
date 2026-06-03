@@ -1,10 +1,10 @@
-# Hi, I'm Zhimin (Myra) Wang
+# Zhimin (Myra) Wang
 
 I build research prototypes at the intersection of **Human-AI Systems**, **decision traceability**, and **complex sociotechnical systems**.
 
-My work focuses on how AI agents can help people structure ambiguous problems, surface hidden assumptions, preserve evidence, and support decision-making across user research, requirements, and organizational workflows.
+My current work explores how AI agents help people structure ambiguous problems, surface hidden assumptions, preserve evidence, and support decision-making across user research, requirements, and organizational workflows.
 
-I am also interested in simulation-based and agent-based prototypes for studying role-based reasoning, decision memory, and decision-making in complex human-AI systems.
+I am also interested in agent-based and simulation-based prototypes for studying role-based reasoning, decision memory, and decision-making in complex human-AI systems.
 
 ---
 
@@ -17,19 +17,36 @@ This portfolio prototype collects my research-oriented demos around AI-assisted 
 
 ---
 
+## Research Interests
+
+- Human-AI Systems
+- Complex Sociotechnical Systems
+- Decision Traceability
+- AI-Assisted User Research
+- Requirements Engineering
+- Role-Based Reasoning
+- Decision Memory
+- Simulation-Based Decision Support
+- CSCW / HCI
+
+---
+
+## Core Research Question
+
+How can AI agents and sociotechnical systems help people make better decisions with evidence, memory, and traceability — without replacing human judgment?
+
+---
+
 ## Research Areas
 
 ### 1. Reflective and Role-Based Human-AI Decision Support
 
 This direction explores how AI agents with different roles can help users reconstruct context, compare perspectives, challenge assumptions, and reason through complex decisions before making final judgments.
 
-**Projects**
-
-- [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf)  
-  Multi-agent deliberation prototype for assumption exploration, perspective comparison, and what-if reasoning.
-
-- [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis)  
-  Reflective decision-memory prototype for reconstructing roles, events, assumptions, and alternative paths.
+| Project | Repository | Demo | Research Role |
+|---|---|---|---|
+| What-if / MatrixMirix | [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | [Demo](https://matrixmirix-whatif.pages.dev/) | Multi-agent deliberation prototype for assumption exploration, perspective comparison, and what-if reasoning |
+| Memory Genesis | [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis) | [Demo](https://what-if.myrawzm0406.online/) | Reflective decision-memory prototype for reconstructing roles, events, assumptions, and alternative paths |
 
 ---
 
@@ -37,13 +54,10 @@ This direction explores how AI agents with different roles can help users recons
 
 This direction explores how AI systems can preserve reasoning context, decision provenance, conflicting evidence, falsified assumptions, and requirement changes during user research and requirements workflows.
 
-**Projects**
-
-- [UserResearchAgent-CF](https://github.com/MyraWang0406/UserResearchAgent-CF)  
-  Decision-memory prototype for evidence citation, contradiction tracking, conflict recall, and evidence-grounded review.
-
-- [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support)  
-  Portfolio-level prototype hub for AI-assisted user research, consumer insight, lifecycle analysis, A/B testing support, and dashboard-based diagnosis.
+| Project | Repository | Demo | Research Role |
+|---|---|---|---|
+| UserResearchAgent-CF | [UserResearchAgent-CF](https://github.com/MyraWang0406/UserResearchAgent-CF) | — | Decision-memory prototype for evidence citation, contradiction tracking, conflict recall, and evidence-grounded review |
+| Agent-Assisted User Research and Decision Support | [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support) | [Portfolio Demo Hub](https://consumer-insight.myrawzm0406.online/) | Portfolio-level prototype hub for AI-assisted user research, consumer insight, lifecycle analysis, A/B testing support, and dashboard-based diagnosis |
 
 ---
 
@@ -51,18 +65,13 @@ This direction explores how AI systems can preserve reasoning context, decision 
 
 User feedback across platforms is fragmented, noisy, multilingual, and highly contextual. This direction investigates how heterogeneous crowd feedback can be transformed into inspectable requirement intelligence.
 
-**Projects**
+| Project | Repository | Demo | Research Role |
+|---|---|---|---|
+| Auto-sentiment-copilot-V1 | [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | [Demo](https://global-auto-sentiment.myrawzm0406.online/) | Multi-platform feedback analysis system for consumer technology domains including phones, vehicles, robotics, and smart home products |
+| UsedCarInsightForManus | [UsedCarInsightForManus](https://github.com/MyraWang0406/UsedCarInsightForManus) | — | Crowd feedback pipeline for second-hand vehicle requirement analysis and discussion mining |
+| CrowdRE2026 Archive | [CrowdRE2026-Beyond-App-Reviews-Archive](https://github.com/MyraWang0406/CrowdRE2026-Beyond-App-Reviews-Archive) | — | Submission archive for a CrowdRE 2026 paper on platform-aware crowd feedback mining |
 
-- [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1)  
-  Multi-platform feedback analysis system for consumer technology domains including phones, vehicles, robotics, and smart home products.
-
-- [UsedCarInsightForManus](https://github.com/MyraWang0406/UsedCarInsightForManus)  
-  Crowd feedback pipeline for second-hand vehicle requirement analysis and discussion mining.
-
-- [CrowdRE2026-Beyond-App-Reviews-Archive](https://github.com/MyraWang0406/CrowdRE2026-Beyond-App-Reviews-Archive)  
-  Submission archive for a CrowdRE 2026 paper on platform-aware crowd feedback mining.
-
-**Core workflow**
+Core workflow:
 
 **source platform → topic cluster → evidence sample → requirement signal**
 
@@ -72,19 +81,13 @@ User feedback across platforms is fragmented, noisy, multilingual, and highly co
 
 This direction applies decision traceability to automated and data-driven workflows, especially where operators need to understand why a system made, missed, or failed a decision.
 
-**Projects**
-
-- [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor)  
-  White-box ADX simulation environment with AI-assisted diagnostics and traceable decision logging.
-
-- [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2)  
-  Experimental dashboard for ad-system A/B testing and metric-change diagnosis.
-
-- [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift)  
-  Causal reasoning prototype for traffic attribution using PSM, DID, and uplift-style analysis.
-
-- [merchant-ops-agent-handson](https://github.com/MyraWang0406/merchant-ops-agent-handson)  
-  Merchant operations copilot for promotion planning, workflow diagnosis, and operational decision support.
+| Project | Repository | Demo | Research Role |
+|---|---|---|---|
+| ADX-Mirix | [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | [Demo](https://adx.mirix.myrawzm0406.online/) | White-box ADX simulation environment with AI-assisted diagnostics and traceable decision logging |
+| ADX Experiment V2 | [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2) | [Demo](https://adx-experiment-v2.myrawzm0406.online/) | Experimental dashboard for ad-system A/B testing and metric-change diagnosis |
+| PSM-DID-uplift | [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift) | [Demo](https://traffic-attribution.myrawzm0406.online/) | Causal reasoning prototype for traffic attribution using PSM, DID, and uplift-style analysis |
+| Merchant Ops Agent | [merchant-ops-agent-handson](https://github.com/MyraWang0406/merchant-ops-agent-handson) | [Demo](https://merchant-ops-copilot.myrawzm0406.online/) | Merchant operations copilot for promotion planning, workflow diagnosis, and operational decision support |
+| Customer Service Chatbot | [chatbot-customer-service](https://github.com/MyraWang0406/chatbot-customer-service) | [Demo](https://chatbot-customer-service.myrawzm0406.online/) | Customer-service workflow prototype for conversation-based issue handling and feedback structuring |
 
 ---
 
@@ -92,13 +95,45 @@ This direction applies decision traceability to automated and data-driven workfl
 
 These projects are side explorations. They are useful for design exploration and simulation thinking, but they are not my current main RA / PhD research focus.
 
-**Projects**
+| Project | Repository | Demo | Role |
+|---|---|---|---|
+| Cognitive Learning Lab | [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab) | [Demo](https://cognitive-learning-lab.pages.dev/) | Simulation-oriented learning environment for exploratory causal reasoning |
+| Temporal Garden | [temporal-garden](https://github.com/MyraWang0406/temporal-garden) | — | Temporal reflection prototype examining how people revisit and reinterpret past decisions over time |
+| MatrixMirix04 | [MatrixMirix04](https://github.com/MyraWang0406/MatrixMirix04) | [Demo](https://matixmirix060202.streamlit.app/) | Earlier Streamlit prototype for reflective decision-support interaction |
 
-- [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab)  
-  Simulation-oriented learning environment for exploratory causal reasoning.
+---
 
-- [temporal-garden](https://github.com/MyraWang0406/temporal-garden)  
-  Temporal reflection prototype examining how people revisit and reinterpret past decisions over time.
+## Research Outputs / Manuscripts Under Review
+
+- **Verification Collapse in AI-Assisted Requirements Decisions: Toward Human-Centered Decision Traceability**  
+  HCARE 2026, co-located with IEEE RE 2026. Under review.
+
+- **Beyond App Reviews: Mining Crowd Feedback for Smart Connected Product Requirements**  
+  CrowdRE 2026, co-located with IEEE RE 2026. Under review.
+
+---
+
+## Design Principles
+
+### Traceability over generation
+
+AI systems should not only generate outputs. They should preserve how an output was produced, which evidence supported it, and which assumptions remained uncertain.
+
+### Human oversight over full automation
+
+I do not treat AI agents as replacements for human judgment. I am more interested in how agents help people inspect, compare, challenge, and revise decisions.
+
+### Evidence before recommendation
+
+A recommendation without evidence is difficult to trust. A useful AI system should expose the evidence trail behind the recommendation.
+
+### Memory as infrastructure
+
+Many workflow failures happen because teams forget earlier decisions, rejected options, known risks, or prior contradictions. I treat decision memory as infrastructure for better reasoning.
+
+### Simulation as hypothesis generation
+
+Simulation cannot replace real-world validation. But it can help generate hypotheses, stress-test assumptions, and make invisible dynamics easier to inspect.
 
 ---
 
@@ -113,10 +148,10 @@ Working within real organizational constraints shaped my interest in how traceab
 ## Current Focus
 
 - Human-AI Systems
+- Complex Sociotechnical Systems
 - Decision Traceability
 - Requirements Engineering
 - AI-Assisted User Research
-- Complex Sociotechnical Systems
 - Simulation-Based Decision Support
 - CSCW / HCI
 
