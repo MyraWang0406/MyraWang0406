@@ -15,6 +15,8 @@ I am also interested in agent-based and simulation-based prototypes for studying
 
 This portfolio prototype collects my research-oriented demos around AI-assisted user research, consumer insight, workflow diagnosis, reflective reasoning, and traceable decision support.
 
+It is the best entry point for quickly understanding my prototype-building direction.
+
 ---
 
 ## Research Interests
@@ -45,19 +47,21 @@ This direction explores how AI agents with different roles can help users recons
 
 | Project | Repository | Demo | Research Role |
 |---|---|---|---|
-| What-if / MatrixMirix | [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | [Demo](https://matrixmirix-whatif.pages.dev/) | Multi-agent deliberation prototype for assumption exploration, perspective comparison, and what-if reasoning |
+| MatrixMirix What-If | [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | [Demo](https://matrixmirix-whatif.pages.dev/) | Multi-agent deliberation prototype for assumption exploration, perspective comparison, and what-if reasoning |
 | Memory Genesis | [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis) | [Demo](https://what-if.myrawzm0406.online/) | Reflective decision-memory prototype for reconstructing roles, events, assumptions, and alternative paths |
+| MatrixMirix04 | [MatrixMirix04](https://github.com/MyraWang0406/MatrixMirix04) | [Streamlit Demo](https://matixmirix060202.streamlit.app/) | Earlier Streamlit prototype for reflective decision-support interaction |
 
 ---
 
-### 2. Decision Traceability and Requirements Memory
+### 2. Decision Traceability and AI-Assisted User Research
 
 This direction explores how AI systems can preserve reasoning context, decision provenance, conflicting evidence, falsified assumptions, and requirement changes during user research and requirements workflows.
 
 | Project | Repository | Demo | Research Role |
 |---|---|---|---|
-| UserResearchAgent-CF | [UserResearchAgent-CF](https://github.com/MyraWang0406/UserResearchAgent-CF) | — | Decision-memory prototype for evidence citation, contradiction tracking, conflict recall, and evidence-grounded review |
+| User Research Agent | [UserResearchAgent](https://github.com/MyraWang0406/UserResearchAgent) | [Demo](https://user-insight.myrawzm0406.online/) | Agent-assisted user research prototype for structuring research questions, insights, and decision-support artifacts |
 | Agent-Assisted User Research and Decision Support | [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support) | [Portfolio Demo Hub](https://consumer-insight.myrawzm0406.online/) | Portfolio-level prototype hub for AI-assisted user research, consumer insight, lifecycle analysis, A/B testing support, and dashboard-based diagnosis |
+| Self-Evolving Personal AI Assistant | [Social-Interaction-of-Self-Evolving-Personal-AI-Assistant](https://github.com/MyraWang0406/Social-Interaction-of-Self-Evolving-Personal-AI-Assistant) | [Demo](https://self-evolving-personal-ai-assistant.myrawzm0406.online/) | Personal AI assistant prototype for memory correction, baseline comparison, user feedback, and traceable local records |
 
 ---
 
@@ -67,9 +71,8 @@ User feedback across platforms is fragmented, noisy, multilingual, and highly co
 
 | Project | Repository | Demo | Research Role |
 |---|---|---|---|
-| Auto-sentiment-copilot-V1 | [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | [Demo](https://global-auto-sentiment.myrawzm0406.online/) | Multi-platform feedback analysis system for consumer technology domains including phones, vehicles, robotics, and smart home products |
-| UsedCarInsightForManus | [UsedCarInsightForManus](https://github.com/MyraWang0406/UsedCarInsightForManus) | — | Crowd feedback pipeline for second-hand vehicle requirement analysis and discussion mining |
-| CrowdRE2026 Archive | [CrowdRE2026-Beyond-App-Reviews-Archive](https://github.com/MyraWang0406/CrowdRE2026-Beyond-App-Reviews-Archive) | — | Submission archive for a CrowdRE 2026 paper on platform-aware crowd feedback mining |
+| Auto Sentiment Copilot | [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | [Demo](https://global-auto-sentiment.myrawzm0406.online/) | Multi-platform feedback analysis system for consumer technology domains including phones, vehicles, robotics, and smart home products |
+| Customer Service Chatbot | [chatbot-customer-service](https://github.com/MyraWang0406/chatbot-customer-service) | [Demo](https://chatbot-customer-service.myrawzm0406.online/) | Customer-service workflow prototype for conversation-based issue handling and feedback structuring |
 
 Core workflow:
 
@@ -83,11 +86,10 @@ This direction applies decision traceability to automated and data-driven workfl
 
 | Project | Repository | Demo | Research Role |
 |---|---|---|---|
-| ADX-Mirix | [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | [Demo](https://adx.mirix.myrawzm0406.online/) | White-box ADX simulation environment with AI-assisted diagnostics and traceable decision logging |
+| ADX Mirix | [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | [Demo](https://adx.mirix.myrawzm0406.online/) | White-box ADX simulation environment with AI-assisted diagnostics and traceable decision logging |
 | ADX Experiment V2 | [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2) | [Demo](https://adx-experiment-v2.myrawzm0406.online/) | Experimental dashboard for ad-system A/B testing and metric-change diagnosis |
-| PSM-DID-uplift | [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift) | [Demo](https://traffic-attribution.myrawzm0406.online/) | Causal reasoning prototype for traffic attribution using PSM, DID, and uplift-style analysis |
 | Merchant Ops Agent | [merchant-ops-agent-handson](https://github.com/MyraWang0406/merchant-ops-agent-handson) | [Demo](https://merchant-ops-copilot.myrawzm0406.online/) | Merchant operations copilot for promotion planning, workflow diagnosis, and operational decision support |
-| Customer Service Chatbot | [chatbot-customer-service](https://github.com/MyraWang0406/chatbot-customer-service) | [Demo](https://chatbot-customer-service.myrawzm0406.online/) | Customer-service workflow prototype for conversation-based issue handling and feedback structuring |
+| PSM-DID Uplift | [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift) | [Demo](https://traffic-attribution.myrawzm0406.online/) | Causal reasoning prototype for traffic attribution using PSM, DID, and uplift-style analysis |
 
 ---
 
@@ -98,8 +100,26 @@ These projects are side explorations. They are useful for design exploration and
 | Project | Repository | Demo | Role |
 |---|---|---|---|
 | Cognitive Learning Lab | [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab) | [Demo](https://cognitive-learning-lab.pages.dev/) | Simulation-oriented learning environment for exploratory causal reasoning |
-| Temporal Garden | [temporal-garden](https://github.com/MyraWang0406/temporal-garden) | — | Temporal reflection prototype examining how people revisit and reinterpret past decisions over time |
-| MatrixMirix04 | [MatrixMirix04](https://github.com/MyraWang0406/MatrixMirix04) | [Demo](https://matixmirix060202.streamlit.app/) | Earlier Streamlit prototype for reflective decision-support interaction |
+
+---
+
+## Complete Prototype Map
+
+| Repository | Live Demo |
+|---|---|
+| [Social-Interaction-of-Self-Evolving-Personal-AI-Assistant](https://github.com/MyraWang0406/Social-Interaction-of-Self-Evolving-Personal-AI-Assistant) | [Demo](https://self-evolving-personal-ai-assistant.myrawzm0406.online/) |
+| [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support) | [Portfolio Demo Hub](https://consumer-insight.myrawzm0406.online/) |
+| [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | [Demo](https://matrixmirix-whatif.pages.dev/) |
+| [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis) | [Demo](https://what-if.myrawzm0406.online/) |
+| [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | [Demo](https://global-auto-sentiment.myrawzm0406.online/) |
+| [UserResearchAgent](https://github.com/MyraWang0406/UserResearchAgent) | [Demo](https://user-insight.myrawzm0406.online/) |
+| [chatbot-customer-service](https://github.com/MyraWang0406/chatbot-customer-service) | [Demo](https://chatbot-customer-service.myrawzm0406.online/) |
+| [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | [Demo](https://adx.mirix.myrawzm0406.online/) |
+| [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2) | [Demo](https://adx-experiment-v2.myrawzm0406.online/) |
+| [merchant-ops-agent-handson](https://github.com/MyraWang0406/merchant-ops-agent-handson) | [Demo](https://merchant-ops-copilot.myrawzm0406.online/) |
+| [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift) | [Demo](https://traffic-attribution.myrawzm0406.online/) |
+| [MatrixMirix04](https://github.com/MyraWang0406/MatrixMirix04) | [Streamlit Demo](https://matixmirix060202.streamlit.app/) |
+| [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab) | [Demo](https://cognitive-learning-lab.pages.dev/) |
 
 ---
 
