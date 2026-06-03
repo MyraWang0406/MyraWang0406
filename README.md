@@ -113,30 +113,6 @@ These projects are side explorations. They are useful for design exploration and
 
 ---
 
-## Design Principles
-
-### Traceability over generation
-
-AI systems should not only generate outputs. They should preserve how an output was produced, which evidence supported it, and which assumptions remained uncertain.
-
-### Human oversight over full automation
-
-I do not treat AI agents as replacements for human judgment. I am more interested in how agents help people inspect, compare, challenge, and revise decisions.
-
-### Evidence before recommendation
-
-A recommendation without evidence is difficult to trust. A useful AI system should expose the evidence trail behind the recommendation.
-
-### Memory as infrastructure
-
-Many workflow failures happen because teams forget earlier decisions, rejected options, known risks, or prior contradictions. I treat decision memory as infrastructure for better reasoning.
-
-### Simulation as hypothesis generation
-
-Simulation cannot replace real-world validation. But it can help generate hypotheses, stress-test assumptions, and make invisible dynamics easier to inspect.
-
----
-
 ## Background
 
 I have 5+ years of industry experience across product workflows, user research, growth platforms, and behavioral analytics.
