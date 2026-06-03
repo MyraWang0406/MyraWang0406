@@ -103,26 +103,6 @@ These projects are side explorations. They are useful for design exploration and
 
 ---
 
-## Complete Prototype Map
-
-| Repository | Live Demo |
-|---|---|
-| [Social-Interaction-of-Self-Evolving-Personal-AI-Assistant](https://github.com/MyraWang0406/Social-Interaction-of-Self-Evolving-Personal-AI-Assistant) | [Demo](https://self-evolving-personal-ai-assistant.myrawzm0406.online/) |
-| [Agent-Assisted-User-Research-and-Decision-Support](https://github.com/MyraWang0406/Agent-Assisted-User-Research-and-Decision-Support) | [Portfolio Demo Hub](https://consumer-insight.myrawzm0406.online/) |
-| [MatrixMirix.WhatIf](https://github.com/MyraWang0406/MatrixMirix.WhatIf) | [Demo](https://matrixmirix-whatif.pages.dev/) |
-| [Memory-Genesis](https://github.com/MyraWang0406/Memory-Genesis) | [Demo](https://what-if.myrawzm0406.online/) |
-| [Auto-sentiment-copilot-V1](https://github.com/MyraWang0406/Auto-sentiment-copilot-V1) | [Demo](https://global-auto-sentiment.myrawzm0406.online/) |
-| [UserResearchAgent](https://github.com/MyraWang0406/UserResearchAgent) | [Demo](https://user-insight.myrawzm0406.online/) |
-| [chatbot-customer-service](https://github.com/MyraWang0406/chatbot-customer-service) | [Demo](https://chatbot-customer-service.myrawzm0406.online/) |
-| [ADX-Mirix-1.15-cursor](https://github.com/MyraWang0406/ADX-Mirix-1.15-cursor) | [Demo](https://adx.mirix.myrawzm0406.online/) |
-| [ADX-experiment-V2](https://github.com/MyraWang0406/ADX-experiment-V2) | [Demo](https://adx-experiment-v2.myrawzm0406.online/) |
-| [merchant-ops-agent-handson](https://github.com/MyraWang0406/merchant-ops-agent-handson) | [Demo](https://merchant-ops-copilot.myrawzm0406.online/) |
-| [PSM-DID-uplift](https://github.com/MyraWang0406/PSM-DID-uplift) | [Demo](https://traffic-attribution.myrawzm0406.online/) |
-| [MatrixMirix04](https://github.com/MyraWang0406/MatrixMirix04) | [Streamlit Demo](https://matixmirix060202.streamlit.app/) |
-| [Cognitive-Learning-Lab](https://github.com/MyraWang0406/Cognitive-Learning-Lab) | [Demo](https://cognitive-learning-lab.pages.dev/) |
-
----
-
 ## Research Outputs / Manuscripts Under Review
 
 - **Verification Collapse in AI-Assisted Requirements Decisions: Toward Human-Centered Decision Traceability**  
